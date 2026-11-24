@@ -1,1 +1,4 @@
-
+# Variables sensibles gestionadas con Ansible Vault (no guardar secretos reales en texto plano)
+vault_db_password: "CAMBIAR_EN_ENTORNO_REAL"
+vault_grafana_admin_password: "CAMBIAR_EN_ENTORNO_REAL"
+vault_vpn_preshared_key: "CAMBIAR_EN_ENTORNO_REAL"
